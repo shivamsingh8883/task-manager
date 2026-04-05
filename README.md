@@ -7,4 +7,4 @@ A simple task manager built with HTML, Tailwind CSS and JavaScript.
 - Delete tasks
 
 ## Preview
-![Task Manager](screenshot.png)
+![Task Manager](Screenshot.png)
