@@ -48,11 +48,11 @@ function create_task(task) {
 
   new_button2.addEventListener("click", function () {
     new_line.remove();
-    tasks = tasks.filter((t) => t !== task); // add this
+    tasks = tasks.filter((t) => t !== task); 
     save_tasks();
   });
   new_button1.addEventListener("click", function () {
-    task.completed = !task.completed; // add this
+    task.completed = !task.completed;
     save_tasks();
     taskSpan.classList.toggle("line-through");
     taskSpan.classList.toggle("text-gray-600");
